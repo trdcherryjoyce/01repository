@@ -45,7 +45,7 @@ Please fill up the information below.
 </p>
 <hr>
 	<div class=lastbox>
-	<p >Information</p>
+	<p class="inf" >Information</p>
 		<p class="secondp">
 			Name:<input type="text"/><br>
 			Already Invented something? 

@@ -7,7 +7,9 @@ h5, h4 {
 .firstp{
 	font-size: 30px;
 	font-family: Bitter, Georgia, serif;
-	margin-bottom: 0px;
+	position: fixed;
+	top: 30px;
+	right: 5px;
 }
 
 .secondi{
@@ -29,7 +31,10 @@ h5, h4 {
 	font-color: 12px;
 }
 
-lastbox {
-	
+.lastbox {
+	margin: 10px 10px 10px 10px;
 }
 	 
+.inf{
+	margin-top: -100px;
+}
