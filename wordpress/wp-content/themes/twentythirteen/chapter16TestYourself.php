@@ -9,6 +9,7 @@
 	function chapter16TestYourself_css(){
 ?>
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/chapter16TestYourself.css"  type="text/css">		
+		
 <?php 
 }
 	add_filter('wp_head','chapter16TestYourself_css');
