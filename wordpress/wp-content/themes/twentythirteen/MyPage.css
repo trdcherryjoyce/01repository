@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+
+ul.one {
+	list-style-type: circle;
+	padding: 10px 10px 15px 50px;
+}
+
+ul.two {
+	list-style-type: square;
+	padding: 10px 10px 15px 50px; 
+}
+
+ol.three{
+	list-style-type: upper-roman;
+	padding: 10px 10px 15px 50px;
+}
+
+ol.four{
+	list-style-type: lower-alpha;
+	padding: 10px 10px 15px 50px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+
+table, th, td {
+	border: 10px solid green;
+}
+
+table {
+	width:50%;
+}
+
+th, td {
+	height: 60px;
+}
+ 
+
+p.firstp{
+	color: blue;
+	font-size: 20px;
+	text-decoration: underline;
+	text-align: center; 
+	
+}
+
+p.secondp{
+	font-style: normal;
+	font-size: 20px;
+	background-color: #b0e0e6;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	border: 2px solid black;
+	border-radius:15px;
+	box-shadow: 10px 15px 5px #b0e0e6;
+}
+
+.main, p.thirdp{
+	font-style: italic;
+	font-size: 15px;
+	background-color: #b0e0e6;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	border: 2px solid black;
+	border-radius:15px;
+	box-shadow: 10px 15px 5px green;
+}
+
+.overflow{
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+	overflow: scroll;
+}
+
+div[class*="test"]{
+	background: #ffff00;
+	text-transform: uppercase;
+	white-space: normal;
+}
+
+div::first-letter{
+	color: #ff0000;
+	font-size: 25px;	
+}
+
+#mybackground {
+	background: url(images/background.jpeg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.rotate {
+	width: 90px;
+	height: 80px;
+	background-color: pink;
+	border: 2px solid black;
+}
+
+.rotate:hover {
+	transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+}
